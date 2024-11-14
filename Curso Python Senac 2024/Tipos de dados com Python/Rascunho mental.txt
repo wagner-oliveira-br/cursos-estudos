@@ -1,0 +1,9 @@
+Os "tipos" servem para definir suas caracteristas ao interpretador.
+
+Texto | str
+Númerico | int, float, complex
+Sequência | list, tuple, range
+Mapa | dict
+Coleção | set, fronzenset
+Booleano | bool
+Binário | bytes, bytearray, memoryview

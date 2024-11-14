@@ -1,0 +1,1 @@
+Em liguagens de programação definimos valores que sofrem alterações ao longo da execução de um programa. Esses valores são as variáveis, pois elas podem nascer com um valor que pode ser mudado.
