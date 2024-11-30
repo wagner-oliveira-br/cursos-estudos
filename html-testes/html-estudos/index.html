@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+    <title>HTML testes</title>
+    <style>
+        video {
+            height: 250px;
+        }
+        img {
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tag de nivel 1</h1>
+    <p>Tag de parágrafo</p>
+    <h2>Nivel 2</h2>
+    <a target="_blank" href="https://www.youtube.com/@wagneroliveira-oficial">Tag de Link</a>
+    <table> <!-- Tag de tabela -->
+        <tr> <!-- Tag de linhas-->
+            <td> <!-- Tag de colunas-->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, eligendi omnis a ea architecto voluptate commodi, repellendus quidem aperiam porro dolores inventore sit eaque placeat tenetur, obcaecati blanditiis molestias deserunt.
+            </td>
+            <td>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt aut ipsa, obcaecati vel mollitia iure ad quibusdam perspiciatis dolorum facilis? Ducimus itaque libero placeat quaerat repudiandae at quidem unde exercitationem!
+            </td>
+        </tr>
+    </table>
+    <h2>Vídeos:</h2>
+    <video controls src="assets/teste-animação-davinci-resolve.mov"></video>
+    <h2>Imagens:</h2>
+    <img src="assets/imagem-exemplo.jpg" alt="exemplo-de-iamgem">
+    <h2>Formulário</h2>
+    <form action="formulario.html">
+        <h2>Email e Senha</h2>
+        <label for="email">Nome: </label>
+        <input type="email" name="email" id="email">
+        <label for="senha">Senha: </label>
+        <input type="password" name="senha" id="senha">
+        <button type="submit">Enviar</button>
+        <label for="numero">Digite um número</label>
+        <h2>Idade</h2>
+        <input type="number" name="numero" id="numero" min="1" max="122">
+        <button type="reset">Resetar</button>
+        <button type="submit">Enviar</button>
+        <h2>CheckBox</h2>
+        <h3>Linguagens de Programção que você domina</h3>
+        <input type="checkbox" name="Linguagens" id="javascript" value="javascript">
+        <label for="javascript">JavaScript</label>
+
+        <input type="checkbox" name="Linguagens" id="Python" value="python">
+        <label for="python">Python</label>
+
+        <button type="reset">Resetar</button>
+        <button type="submit">Enviar</button>
+
+        <h2>Qual o seu sexo?</h2>
+        <input type="radio" name="genero" id="feminino" value="feminino">
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" id="masculino" value="masculino">
+        <label for="masculino">Masculino</label>
+        <button type="reset">Resetar</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+
+}
+
+.container {
+    background-color: beige;
+    margin: 10px;
+}
+
+.titulos {
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    padding-left: 100px;
+}
+
+.paragrafos {
+    color: rgb(47, 77, 143);
+    font-style: italic;
+    margin-top: 0px;
+    padding-left: 100px;
+}
